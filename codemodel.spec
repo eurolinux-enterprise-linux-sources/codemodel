@@ -1,6 +1,6 @@
 Name: codemodel
 Version: 2.6
-Release: 8%{?dist}
+Release: 9%{?dist}
 Summary: Java library for code generators
 Group: Development/Libraries
 License: CDDL and GPLv2
@@ -105,6 +105,9 @@ cp -p codemodel-annotation-compiler/pom.xml %{buildroot}%{_mavenpomdir}/JPP-%{na
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.6-9
+- Mass rebuild 2013-12-27
+
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.6-8
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
